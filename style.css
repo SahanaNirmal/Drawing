@@ -1,0 +1,23 @@
+body{
+    background-color: lavender;
+    font-family: 'Koulen', cursive;
+}
+h1{
+    color:rgb(255, 255, 255);
+    background-color: rgb(122, 202, 226);
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 5px solid rgba(198, 234, 248, 0.849);
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 35px gray;}
+    to{box-shadow: 1px 1px 35px mediumvioletred}
+}
